@@ -1,0 +1,208 @@
+Uri: https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap
+File Name: C:\Downloaded Web Sites\www.topfinance.space\css2
+Content Type: text/css
+
+Uri: https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900
+File Name: C:\Downloaded Web Sites\www.topfinance.space\css-1
+Content Type: text/css
+
+Uri: https://fonts.gstatic.com/s/roboto/v30/KFOjCnqEu92Fr1Mu51S7ABc9.ttf
+File Name: C:\Downloaded Web Sites\www.topfinance.space\s\roboto\v30\KFOjCnqEu92Fr1Mu51S7ABc9.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v30/KFOjCnqEu92Fr1Mu51TjARc9.ttf
+File Name: C:\Downloaded Web Sites\www.topfinance.space\s\roboto\v30\KFOjCnqEu92Fr1Mu51TjARc9.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v30/KFOjCnqEu92Fr1Mu51TLBBc9.ttf
+File Name: C:\Downloaded Web Sites\www.topfinance.space\s\roboto\v30\KFOjCnqEu92Fr1Mu51TLBBc9.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v30/KFOjCnqEu92Fr1Mu51TzBhc9.ttf
+File Name: C:\Downloaded Web Sites\www.topfinance.space\s\roboto\v30\KFOjCnqEu92Fr1Mu51TzBhc9.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v30/KFOkCnqEu92Fr1MmgVxIIzc.ttf
+File Name: C:\Downloaded Web Sites\www.topfinance.space\s\roboto\v30\KFOkCnqEu92Fr1MmgVxIIzc.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v30/KFOkCnqEu92Fr1Mu52xP.ttf
+File Name: C:\Downloaded Web Sites\www.topfinance.space\s\roboto\v30\KFOkCnqEu92Fr1Mu52xP.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fBBc9.ttf
+File Name: C:\Downloaded Web Sites\www.topfinance.space\s\roboto\v30\KFOlCnqEu92Fr1MmEU9fBBc9.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9vAw.ttf
+File Name: C:\Downloaded Web Sites\www.topfinance.space\s\roboto\v30\KFOlCnqEu92Fr1MmEU9vAw.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmSU5fBBc9.ttf
+File Name: C:\Downloaded Web Sites\www.topfinance.space\s\roboto\v30\KFOlCnqEu92Fr1MmSU5fBBc9.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmSU5vAw.ttf
+File Name: C:\Downloaded Web Sites\www.topfinance.space\s\roboto\v30\KFOlCnqEu92Fr1MmSU5vAw.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlfBBc9.ttf
+File Name: C:\Downloaded Web Sites\www.topfinance.space\s\roboto\v30\KFOlCnqEu92Fr1MmWUlfBBc9.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlvAw.ttf
+File Name: C:\Downloaded Web Sites\www.topfinance.space\s\roboto\v30\KFOlCnqEu92Fr1MmWUlvAw.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmYUtfBBc9.ttf
+File Name: C:\Downloaded Web Sites\www.topfinance.space\s\roboto\v30\KFOlCnqEu92Fr1MmYUtfBBc9.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmYUtvAw.ttf
+File Name: C:\Downloaded Web Sites\www.topfinance.space\s\roboto\v30\KFOlCnqEu92Fr1MmYUtvAw.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Me5Q.ttf
+File Name: C:\Downloaded Web Sites\www.topfinance.space\s\roboto\v30\KFOmCnqEu92Fr1Me5Q.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4mxP.ttf
+File Name: C:\Downloaded Web Sites\www.topfinance.space\s\roboto\v30\KFOmCnqEu92Fr1Mu4mxP.ttf
+Content Type: font/ttf
+
+Uri: https://www.facebook.com/tr?id=1069117754117547&ev=PageView&noscript=1
+File Name: C:\Downloaded Web Sites\www.topfinance.space\tr-1
+Content Type: text/plain
+
+Uri: https://www.facebook.com/tr?id=1821797228285780&ev=PageView&noscript=1
+File Name: C:\Downloaded Web Sites\www.topfinance.space\tr
+Content Type: text/plain
+
+Uri: https://www.topfinance.space/
+File Name: C:\Downloaded Web Sites\www.topfinance.space\index.htm
+Content Type: text/html
+
+Uri: https://www.topfinance.space/border-radius.htc
+File Name: C:\Downloaded Web Sites\www.topfinance.space\border-radius.htc
+Content Type: 
+
+Uri: https://www.topfinance.space/css/adict.css
+File Name: C:\Downloaded Web Sites\www.topfinance.space\css\adict.css
+Content Type: text/css
+
+Uri: https://www.topfinance.space/css/card.css
+File Name: C:\Downloaded Web Sites\www.topfinance.space\css\card.css
+Content Type: text/css
+
+Uri: https://www.topfinance.space/css/cookie.css
+File Name: C:\Downloaded Web Sites\www.topfinance.space\css\cookie.css
+Content Type: text/css
+
+Uri: https://www.topfinance.space/css/intlTelInput.css
+File Name: C:\Downloaded Web Sites\www.topfinance.space\css\intlTelInput.css
+Content Type: text/css
+
+Uri: https://www.topfinance.space/css/materialdesignicons.min.css
+File Name: C:\Downloaded Web Sites\www.topfinance.space\css\materialdesignicons.min.css
+Content Type: text/css
+
+Uri: https://www.topfinance.space/css/normalize.css
+File Name: C:\Downloaded Web Sites\www.topfinance.space\css\normalize.css
+Content Type: text/css
+
+Uri: https://www.topfinance.space/css/style.css
+File Name: C:\Downloaded Web Sites\www.topfinance.space\css\style.css
+Content Type: text/css
+
+Uri: https://www.topfinance.space/fonts/materialdesignicons-webfont.eot
+File Name: C:\Downloaded Web Sites\www.topfinance.space\fonts\materialdesignicons-webfont.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://www.topfinance.space/fonts/materialdesignicons-webfont.ttf
+File Name: C:\Downloaded Web Sites\www.topfinance.space\fonts\materialdesignicons-webfont.ttf
+Content Type: application/octet-stream
+
+Uri: https://www.topfinance.space/fonts/materialdesignicons-webfont.woff
+File Name: C:\Downloaded Web Sites\www.topfinance.space\fonts\materialdesignicons-webfont.woff
+Content Type: font/woff
+
+Uri: https://www.topfinance.space/fonts/materialdesignicons-webfont.woff2
+File Name: C:\Downloaded Web Sites\www.topfinance.space\fonts\materialdesignicons-webfont.woff2
+Content Type: font/woff2
+
+Uri: https://www.topfinance.space/fonts/materialdesignicons-webfont_1.eot
+File Name: C:\Downloaded Web Sites\www.topfinance.space\fonts\materialdesignicons-webfont_1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://www.topfinance.space/images/favicon.png
+File Name: C:\Downloaded Web Sites\www.topfinance.space\images\favicon.png
+Content Type: image/png
+
+Uri: https://www.topfinance.space/images/flags.png
+File Name: C:\Downloaded Web Sites\www.topfinance.space\images\flags.png
+Content Type: image/png
+
+Uri: https://www.topfinance.space/images/icon-check.svg
+File Name: C:\Downloaded Web Sites\www.topfinance.space\images\icon-check.svg
+Content Type: image/svg+xml
+
+Uri: https://www.topfinance.space/images/img_1.jpg
+File Name: C:\Downloaded Web Sites\www.topfinance.space\images\img_1.jpg
+Content Type: image/jpeg
+
+Uri: https://www.topfinance.space/images/img_2.jpg
+File Name: C:\Downloaded Web Sites\www.topfinance.space\images\img_2.jpg
+Content Type: image/jpeg
+
+Uri: https://www.topfinance.space/images/img_3.jpg
+File Name: C:\Downloaded Web Sites\www.topfinance.space\images\img_3.jpg
+Content Type: image/jpeg
+
+Uri: https://www.topfinance.space/images/img_4.jpg
+File Name: C:\Downloaded Web Sites\www.topfinance.space\images\img_4.jpg
+Content Type: image/jpeg
+
+Uri: https://www.topfinance.space/images/img_5.jpg
+File Name: C:\Downloaded Web Sites\www.topfinance.space\images\img_5.jpg
+Content Type: image/jpeg
+
+Uri: https://www.topfinance.space/images/img_6.png
+File Name: C:\Downloaded Web Sites\www.topfinance.space\images\img_6.png
+Content Type: image/png
+
+Uri: https://www.topfinance.space/images/last.png
+File Name: C:\Downloaded Web Sites\www.topfinance.space\images\last.png
+Content Type: image/png
+
+Uri: https://www.topfinance.space/images/quant.jpg
+File Name: C:\Downloaded Web Sites\www.topfinance.space\images\quant.jpg
+Content Type: image/jpeg
+
+Uri: https://www.topfinance.space/js/adict.js
+File Name: C:\Downloaded Web Sites\www.topfinance.space\js\adict.js
+Content Type: application/javascript
+
+Uri: https://www.topfinance.space/js/cookie.js
+File Name: C:\Downloaded Web Sites\www.topfinance.space\js\cookie.js
+Content Type: application/javascript
+
+Uri: https://www.topfinance.space/js/intlTelInput.js
+File Name: C:\Downloaded Web Sites\www.topfinance.space\js\intlTelInput.js
+Content Type: application/javascript
+
+Uri: https://www.topfinance.space/js/jquery-3.6.4.min.js
+File Name: C:\Downloaded Web Sites\www.topfinance.space\js\jquery-3.6.4.min.js
+Content Type: application/javascript
+
+Uri: https://www.topfinance.space/js/main.js
+File Name: C:\Downloaded Web Sites\www.topfinance.space\js\main.js
+Content Type: application/javascript
+
+Uri: https://www.topfinance.space/js/script.js
+File Name: C:\Downloaded Web Sites\www.topfinance.space\js\script.js
+Content Type: application/javascript
+
+Uri: https://www.topfinance.space/js/utils.js
+File Name: C:\Downloaded Web Sites\www.topfinance.space\js\utils.js
+Content Type: application/javascript
+

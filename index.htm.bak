@@ -1,0 +1,388 @@
+﻿<!DOCTYPE html><html lang="en"><head>
+      <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Quantum AI</title>
+
+    <link rel="stylesheet" href="css/normalize.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/card.css" type="text/css">
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
+
+    <link href="css-1?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+    <link href="css/materialdesignicons.min.css" rel="stylesheet">
+    
+    <script src="js/jquery-3.6.4.min.js" crossorigin="anonymous"></script>
+    <script src="js/intlTelInput.js"></script>
+    <script src="js/adict.js"></script>
+    <script src="js/utils.js"></script>
+    <link rel="stylesheet" href="css/intlTelInput.css">
+    <link rel="stylesheet" href="css/adict.css">
+    <!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1079239473226466');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none" src="tr?id=1821797228285780&ev=PageView&noscript=1"></noscript>
+<!-- End Meta Pixel Code -->
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '389823753418455');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none" src="tr-1?id=1069117754117547&ev=PageView&noscript=1"></noscript>
+<!-- End Meta Pixel Code -->
+  </head>
+
+  <body>
+    <div id="page">
+      <div class="logo">
+        <svg width="140" height="62" viewbox="0 0 124.2 42">
+
+          
+
+        </svg>
+      </div>
+
+      <div id="home">
+        <div class="block">
+          <h1 class="title">
+            Зарабатывай <br><b><span style="color: #0b6ef9"> 250.000₽ </span>в месяц</b> <br>ГАРАНТИРОВАНО
+          <div class="cont">
+            <div class="text2">
+              Доступ открыт только для граждан РФ!
+            </div>
+            <div class="text1">
+              Платформа, которая поможет жителям России выйти на качественно новый уровень жизни!
+            </div>
+            <div class="wrap-btns" id="startBtn">
+              <a class="button">Начать<span class="flare"></span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bg"></div>
+      <div class="footer">
+        <div class="wrap">
+          <p>Министерство экономического развития РФ, ул. Красная Пресня, 3, стр. 1, Москва, 123242 </p>
+        </div>
+      </div>
+      <div class="callback">Wait for a call from our operator</div>
+
+    </div>
+    <div id="quest">
+      <div id="main">
+        <div class="logo">
+          <svg width="140" height="62" viewbox="0 0 124.2 42">
+
+           
+
+          </svg>
+        </div>
+        <div id="card">
+          <div class="slide slide1 active">
+            <div class="cont">
+              <div class="quest">
+                <div class="name">Сколько Вам лет?</div>
+                <div class="answer" data-name="quest1">
+                  <div class="items">
+                    <div class="item" data-name="quest1" data-val="1">
+                      18 - 25
+                    </div>
+                    <div class="item" data-name="quest1" data-val="2">
+                      25 - 35
+                    </div>
+                    <div class="item" data-name="quest1" data-val="3">
+                      35 - 45
+                    </div>
+                    <div class="item" data-name="quest1" data-val="4">45+</div>
+                  </div>
+                </div>
+                <div class="mobile_img">
+                <img src="images/img_1.jpg" width="100%">
+                </div>
+              </div>
+            </div>
+
+
+                <div class="slide-navs">
+              <div class="steps">
+                <div class="step-val">Вопрос 1 из 5</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="slide slide2">
+            <div class="cont">
+              <div class="quest">
+                <div class="name">Какова ваша финансовая цель?</div>
+                <div class="answer" data-name="quest2">
+                  <div class="items">
+                    <div class="item" data-name="quest2" data-val="1">
+                      Обеспечить себя и свою семью
+                    </div>
+                    <div class="item" data-name="quest2" data-val="2">
+                      Создать финансовую подушку на черный день
+                    </div>
+                    <div class="item" data-name="quest2" data-val="3">
+                      Улучшить/купить личное жилье
+                    </div>
+                    <div class="item" data-name="quest2" data-val="4">
+                      Финансовая самостоятельность
+                    </div>
+
+                  </div>
+                </div>
+                <div class="mobile_img">
+                  <img src="images/img_2.jpg" width="100%">
+                </div>
+              </div>
+            </div>
+
+            <div class="slide-navs">
+              <div class="steps">
+                <div class="step-val">Вопрос 2 из 5</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="slide slide3">
+            <div class="cont">
+              <div class="quest">
+                <div class="name">
+                  Как вы думаете, куда вы потратите первые заработанные деньги?
+                </div>
+                <div class="answer" data-name="quest3">
+                  <div class="items">
+                    <div class="item" data-name="quest3" data-val="1">
+                      Погашение кредита/ипотеки/долга
+                    </div>
+                    <div class="item" data-name="quest3" data-val="2">
+                      Куплю то, о чем давно мечтаю
+                    </div>
+                    <div class="item" data-name="quest3" data-val="3">
+                      Путешествие
+                    </div>
+                    <div class="item" data-name="quest3" data-val="4">
+                      Я буду инвестировать их снова, чтобы увеличить капитал
+                    </div>
+                  </div>
+                </div>
+                <div class="mobile_img">
+                  <img src="images/img_3.jpg" width="100%">
+                </div>
+              </div>
+            </div>
+
+            <div class="slide-navs">
+              <div class="steps">
+                <div class="step-val">Вопрос 3 oиз 5</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="slide slide4">
+            <div class="cont">
+              <div class="quest">
+                <div class="name">
+                  Сколько времени вы готовы посвятить заработку?
+                </div>
+                <div class="answer" data-name="quest4">
+                  <div class="items">
+                    <div class="item" data-name="quest4" data-val="1">
+                      Несколько часов в день
+                    </div>
+                    <div class="item" data-name="quest4" data-val="2">
+                      Весь день
+                    </div>
+                    <div class="item" data-name="quest4" data-val="3">
+                      Несколько часов в неделю
+
+                    </div>
+                    <div class="item" data-name="quest4" data-val="4">
+                      Несколько часов в месяц
+                    </div>
+
+                  </div>
+                </div>
+                <div class="mobile_img">
+                  <img src="images/img_4.jpg" width="100%">
+                </div>
+              </div>
+            </div>
+
+            <div class="slide-navs">
+              <div class="steps">
+                <div class="step-val">Вопрос 4 из 5</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="slide slide5">
+            <div class="cont">
+              <div class="quest">
+                <div class="name">
+                  Выберите сумму для вашей первой инвестиции:
+                </div>
+                <div class="answer" data-name="quest5">
+                  <div class="items">
+                    <div class="item" data-name="quest5" data-val="1">
+                      Меньше 20.000₽
+                    </div>
+                    <div class="item" data-name="quest5" data-val="2">
+                      Больше 20.000₽
+                    </div>
+                    <div class="item" data-name="quest5" data-val="3">
+                      Затрудняюсь ответить, нужна консультация
+                    </div>
+                  </div>
+                </div>
+                <div class="mobile_img">
+                  <img src="images/img_5.jpg" width="100%">
+                </div>
+              </div>
+            </div>
+
+            <div class="slide-navs">
+              <div class="steps">
+                <div class="step-val">Вопрос 5 из 5</div>
+              </div>
+            </div>
+          </div>
+
+          <div id="slide-finish" class="slide">
+            <div class="la-left">
+              <div class="cont">
+                <div class="t1">
+                  Поздравляем! <br>Вам открыт доступ к государственной платформе!
+                </div>
+                <img src="images/last.png" width="100%">
+                <div class="text">
+                  <p>Оставьте Ваши контактные данные.</p>
+                  <p>
+                    После регистрации с Вами свяжеться Ваш личный помощник для дальнейших рекомендаций.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="la-right">
+              <form action="send.php" method="post">
+                <div>
+                  <input type="text" name="f_name" placeholder="Your Name">
+                </div>
+                <div>
+                  <input type="text" name="l_name" placeholder="Your Surname">
+                </div>
+                <div>
+                  <input type="email" name="email" placeholder="Your E-mail">
+                </div>
+                <div>
+                  <input id="phone" type="tel" name="phone" placeholder="">
+                  <input type="hidden" name="phone2" class="phone2" autocomplete="on" required="">
+                  <input type="hidden" name="countryCode" id="countryCode">
+                  <input type="hidden" name="description" id="description">
+                </div>
+                <button type="submit" class="mt-4 v-btn v-btn--block v-btn--disabled v-btn--has-bg theme--light v-size--x-large text-h4"><span class="v-btn__content"> Join Free </span></button>
+              </form>
+            </div>
+          </div>
+
+          <div id="slide-message" class="slide">
+            <div class="message">
+              <div class="icon"></div>
+              <div class="text">
+                <h2>Success!</h2>
+
+                <p>Thank you, your request has been processed.</p>
+                <p>Please wait for a call from our specialist.</p>
+              </div>
+            </div>
+          </div>
+            </div>
+          </div>
+
+          <div class="callback">
+            Wait for a call from our manager, <br>after registration is completed.
+          </div>
+
+        </div>
+
+        <style>
+          button {
+    background-color: #4caf50!important;
+    width: 100%;
+    height: 52px;
+    border-radius: 6px;
+    border: 1px solid #e1e1e1;
+    border-color: #4caf50!important;
+    margin-top: 30px;
+}
+.v-btn__content {
+  color: white;
+  font-size: 2.125rem!important;
+   text-indent: 0.0892857143em;
+    text-transform: uppercase;
+    letter-spacing: .0073529412em!important;
+}
+form {
+  box-shadow: 0 11px 15px -7px rgba(0,0,0,.2),0 24px 38px 3px rgba(0,0,0,.14),0 9px 46px 8px rgba(0,0,0,.12)!important;
+  padding: 16px !important;
+}
+input {
+  height: 50px;
+  width: 100%;
+  margin-bottom: 30px;
+  padding: 16px !important;
+  border: 1px solid #e1e1e1;
+    border-radius: 6px;
+}
+}
+
+        </style>
+        <script>
+           // Получаем ссылку на элемент input с id "description"
+  const descriptionInput = document.getElementById('description');
+
+  // Получаем ссылки на все элементы с классом "item"
+  const answerItems = document.querySelectorAll('.item');
+
+  // Обрабатываем событие нажатия на элементы с классом "item"
+  answerItems.forEach(function(item) {
+    item.addEventListener('click', function() {
+      // Получаем значение выбранного элемента
+      const value = item.textContent.trim();
+
+      // Дополняем значение поля описания с разделителем, если оно не пустое
+      if (descriptionInput.value !== '') {
+        descriptionInput.value += '// ';
+      }
+
+      // Добавляем значение выбранного элемента в поле описания
+      descriptionInput.value += value;
+    });
+  });
+        </script>
+
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+   
+  <link rel="stylesheet" href="css/cookie.css">  
+<script src="js/cookie.js"></script>
+
+</body></html>
