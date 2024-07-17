@@ -1,0 +1,621 @@
+﻿<!DOCTYPE html><html lang="ru-RU"><head><!-- Removed by WebCopy --><!--<base href="/lander/vas-ton-opros/index.html">--><!-- Removed by WebCopy -->
+    <title>TON - Telegram Open Network</title>
+    <link rel="shortcut icon" href="lander/vas-ton-opros/images/favicon.png" type="image/x-icon">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="lander/vas-ton-opros/css/form.css">
+    
+    <!-- Global site tag (gtag.js) -->
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="lander/vas-ton-opros/css/bootstrap.min.css" rel="stylesheet">
+    <link href="lander/vas-ton-opros/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="lander/vas-ton-opros/css/style.css">
+  </head>
+
+
+<img id="pb" height="1" width="1" style="display:none" src="">
+  
+    <script type="text/javascript">
+function postToGoogle() {
+                var field1 = $('#Name').val()
+                var field4 = $('#LastName').val()
+                var field2 = $('#Email').val()
+                var field3 = $('#Phone').val()
+                var field99 = $('#offername').val()
+                var field98 = $('#ofrname').val()
+                var url = 'success.php?pixel=' + pixel
+
+                $.ajax({
+                    url: 'https://docs.google.com/forms/d/e/1FAIpQLScihppbeC4pt3qsJpt8QuJ5u98Zt70nqLoyz3p2pQZ3nMX6-w/formResponse',
+                    data: {
+                        'entry.1591703552': field1,
+                        'entry.534972477': field2,
+                        'entry.68682094': field3,
+                        'entry.1605252214': field4,
+                        'entry.1447782729': field99,
+                        'entry.1615509410': field98,
+                    },
+                    type: 'POST',
+                    dataType: 'xml',
+                    success: function () {
+                        window.location = url
+                    },
+                    error: function () {
+
+                        window.location = url
+                    },
+                })
+                return false
+            }
+            function leadTrack() {
+                fbq('track', 'Lead')
+            }
+            leadTrack()
+            
+            setTimeout(() => {
+                formJs.submit()
+            }, 1000)
+           
+            </script>
+<script>
+  function sendPostback() {
+    var matches = document.cookie.match(new RegExp("(?:^|; )" + 'subid' + "=([^;]*)"));
+    var subId = decodeURIComponent(matches[1]);
+    var host = window.location.host;
+    var protocol = window.location.protocol;
+    var postbackUrl = protocol + "//" +  host + "/5cf8cc6/postback?subid=" + subId + "&status=lead";
+    console.log("sending postback to url = " + postbackUrl);
+    document.getElementById("pb").src = postbackUrl;
+  }
+</script>
+        
+  <script type="application/javascript">
+
+  
+  //todo: remove from here 
+          function getCookie(name) {
+    var v = document.cookie.match("(^|;) ?" + name + "=([^;]*)(;|$)");
+    var value = v ? v[2] : null;
+    return value && value !== "undefined" ? value : null;
+  }
+
+  function setCookie(name, value, days) {
+    var d = new Date();
+    d.setTime(d.getTime() + 24 * 60 * 60 * 1000 * days);
+    document.cookie = name + "=" + value + ";path=/;expires=" + d.toGMTString();
+  }
+
+  function getSubId() {
+    var params = new URLSearchParams(document.location.search.substr(1));
+    if (!"jbcjffgi9k".match("{")) {
+      return "jbcjffgi9k";
+    }
+    var clientSubid = '<?php echo isset($client) ? $client->getSubid() : "" ?>';
+    if (clientSubid && !clientSubid.match(">")) {
+      return clientSubid;
+    }
+    if (params.get("_subid")) {
+      return params.get("_subid");
+    }
+    if (params.get("subid")) {
+      return params.get("subid");
+    }
+    if (getCookie("subid")) {
+      return getCookie("subid");
+    }
+    if (getCookie("_subid")) {
+      return getCookie("_subid");
+    }
+  }
+
+  function getToken() {
+    var params = new URLSearchParams(document.location.search.substr(1));
+    if (!"uuid_jbcjffgi9k_jbcjffgi9k6697e1d5425233.14935724".match("{")) {
+      return "uuid_jbcjffgi9k_jbcjffgi9k6697e1d5425233.14935724";
+    }
+    var clientToken = '<?php echo isset($client) ? $client->getToken() : "" ?>';
+    if (clientToken && !clientToken.match(">")) {
+      return clientToken;
+    }
+    if (params.get("_token")) {
+      return params.get("_token");
+    }
+    if (params.get("token")) {
+      return params.get("token");
+    }
+    if (getCookie("token")) {
+      return getCookie("token");
+    }
+    return null;
+  }
+  
+    function getAffName() {
+    var params = new URLSearchParams(document.location.search.substr(1));
+    if (!"va_k".match("{")) {
+      return "va_k";
+    }
+    if (params.get("mnn")) {
+      return params.get("mnn");
+    }
+
+    if (getCookie("mnn")) {
+      return getCookie("mnn");
+    }
+
+    return null;
+  }
+  
+        function getOffName() {
+    var params = new URLSearchParams(document.location.search.substr(1));
+    if (!"ton".match("{")) {
+      return "ton";
+    }
+    if (params.get("ofr")) {
+      return params.get("ofr");
+    }
+
+    if (getCookie("ofr")) {
+      return getCookie("ofr");
+    }
+
+    return null;
+  }
+
+  function getPixel() {
+    var params = new URLSearchParams(document.location.search.substr(1));
+    if (!"xxxxxx".match("{")) {
+      return "xxxxxx";
+    }
+    if (params.get("pixel")) {
+      return params.get("pixel");
+    }
+
+    if (getCookie("pixel")) {
+      return getCookie("pixel");
+    }
+
+    return null;
+  }
+
+  if (typeof URLSearchParams === "function") {
+    document.addEventListener("DOMContentLoaded", function (event) {
+      var params = new URLSearchParams(document.location.search.substr(1));
+      var subid = getSubId();
+      var token = getToken();
+      var pixel = getPixel();
+      var ofr = getOffName();
+      var mnn = getAffName();
+
+      params.set("_token", token);
+      setCookie("pixel", pixel);
+      setCookie("token", token);
+      setCookie("subid", subid);
+      setCookie("mnn", mnn);
+      setCookie("ofr", ofr);
+
+      // Adds params to the links
+      // document.querySelectorAll("a").forEach(function (link) {
+      //   try {
+      //     var url = new URL(link.href);
+      //     params.forEach(function (v, k) {
+      //       url.searchParams.append(k, v);
+      //     });
+      //     link.href = url.toString();
+      //   } catch (e) {
+      //     console.error(
+      //       `[Exception] Bad params: unexpected link '${link.href}' for new Url()`
+      //     );
+      //   }
+      // });
+
+      var SUBID_TEMPLATE_NAME = "subid";
+      var TOKEN_TEMPLATE_NAME = "token";
+      var PIXEL_TEMPLATE_NAME = "pixel";
+      var MNN_TEMPLATE_NAME = "mnn";
+      var OFR_TEMPLATE_NAME = "ofr";
+
+      // Replace placeholders to actual values for input[hidden] fields
+      var subIdRegExp = new RegExp(`\{${SUBID_TEMPLATE_NAME}\}`, "g");
+      var tokenRegExp = new RegExp(`\{${TOKEN_TEMPLATE_NAME}\}`, "g");
+      var pixelRegExp = new RegExp(`\{${PIXEL_TEMPLATE_NAME}\}`, "g");
+      var mnnRegExp = new RegExp(`\{${MNN_TEMPLATE_NAME}\}`, "g");
+      var ofrRegExp = new RegExp(`\{${OFR_TEMPLATE_NAME}\}`, "g");
+
+      document
+        .querySelectorAll('input[type="hidden"]')
+        .forEach(function (input) {
+          if (subIdRegExp.test(input.value)) {
+            input.value = input.value.replaceAll(subIdRegExp, subid);
+          }
+          if (tokenRegExp.test(input.value)) {
+            input.value = input.value.replaceAll(tokenRegExp, token);
+          }
+          if (pixelRegExp.test(input.value)) {
+            input.value = input.value.replaceAll(pixelRegExp, pixel);
+          }
+          if (mnnRegExp.test(input.value)) {
+            input.value = input.value.replaceAll(mnnRegExp, mnn);
+          }
+          if (ofrRegExp.test(input.value)) {
+            input.value = input.value.replaceAll(ofrRegExp, ofr);
+          }
+          
+        });
+
+      // Adds params as hidden inputs to the forms
+      document.querySelectorAll("form").forEach(function (form) {
+        params.forEach(function (v, k) {
+          var input = document.createElement("input");
+          input.type = "hidden";
+          input.name = k;
+          input.value = v;
+
+          form.append(input);
+        });
+      });
+    });
+  }
+    
+            // function getCookie(name) {
+            //     var v = document.cookie.match(
+            //         '(^|;) ?' + name + '=([^;]*)(;|$)'
+            //     )
+            //     return v ? v[2] : null
+            // }
+
+            // function setCookie(name, value, days) {
+            //     var d = new Date()
+            //     d.setTime(d.getTime() + 24 * 60 * 60 * 1000 * days)
+            //     document.cookie =
+            //         name + '=' + value + ';path=/;expires=' + d.toGMTString()
+            // }
+
+            // function getSubId() {
+            //   var params = new URLSearchParams(document.location.search.substr(1));
+            //   if (!'1gihdk929sg'.match('{')) {
+            //     return '1gihdk929sg';
+            //   }
+            //   var clientSubid = '';
+            //   if (clientSubid && !clientSubid.match('>')) {
+            //     return clientSubid;
+            //   }
+            //   if (params.get('_subid')) {
+            //     return params.get('_subid')
+            //   }
+            //   if (params.get('subid')) {
+            //     return params.get('subid')
+            //   }
+            //   if (getCookie('subid')) {
+            //     return getCookie('subid');
+            //   }
+            // }
+
+            // function getToken() {
+            //   var params = new URLSearchParams(document.location.search.substr(1));
+            //   if (!'uuid_1gihdk929sg_1gihdk929sg6356ca4870c7e1.67805983'.match('{')) {
+            //     return 'uuid_1gihdk929sg_1gihdk929sg6356ca4870c7e1.67805983';
+            //   }
+            //   var clientToken= '';
+            //   if (clientToken && !clientToken.match('>')) {
+            //     return clientToken;
+            //   }
+            //   if (params.get('_token')) {
+            //     return params.get('_token')
+            //   }
+            //   if (params.get('token')) {
+            //     return params.get('token')
+            //   }
+            //   if (getCookie('token')) {
+            //     return getCookie('token');
+            //   }
+            //   return null;
+            // }
+
+            // function getPixel() {
+            //     var params = new URLSearchParams(
+            //         document.location.search.substr(1)
+            //     )
+            //     if (!'myPixel'.match('{')) {
+            //         return 'myPixel'
+            //     }
+            //     if (params.get('pixel')) {
+            //         return params.get('pixel')
+            //     }
+
+            //     if (getCookie('pixel')) {
+            //         return getCookie('pixel')
+            //     }
+
+            //     return null
+            // }
+            function getOffer() {
+                var params = new URLSearchParams(
+                    document.location.search.substr(1)
+                )
+                if (!'myOffer'.match('{')) {
+                    return 'myOffer'
+                }
+                if (params.get('offers')) {
+                    return params.get('offers')
+                }
+
+                if (getCookie('offers')) {
+                    return getCookie('offers')
+                }
+
+                return null
+            }
+
+            if (typeof URLSearchParams === 'function') {
+                document.addEventListener('DOMContentLoaded', function (event) {
+                    var params = new URLSearchParams(
+                        document.location.search.substr(1)
+                    )
+                    var subid = getSubId()
+                    var token = getToken()
+                    var pixel = getPixel()
+                    var offers = getOffer()
+                    var mnn = getAffName()
+                    var ofr = getOffName()
+
+                    params.set('_token', token)
+                    setCookie('pixel', pixel)
+                    setCookie('token', token)
+                    setCookie('subid', subid)
+                    setCookie('offers', offers)
+                    setCookie('mnn', mnn)
+                    setCookie('ofr', ofr)
+
+                    // Adds params to the links
+                    document.querySelectorAll('a').forEach(function (link) {
+                        var url = new URL(link.href)
+                        params.forEach(function (v, k) {
+                            url.searchParams.append(k, v)
+                        })
+                        link.href = url.toString()
+                    })
+
+                    // Adds params as hidden inputs to the forms
+                    document.querySelectorAll('form').forEach(function (form) {
+                        params.forEach(function (v, k) {
+                            var input = document.createElement('input')
+                            input.type = 'hidden'
+                            input.name = k
+                            input.value = v
+
+                            form.append(input)
+                        })
+                    })
+                })
+            }
+        </script>
+
+        <!-- Facebook Pixel Code -->
+        <script>
+            const queryString = window.location.search
+            const urlParams = new URLSearchParams(queryString)
+            const pixel = urlParams.get('pixel')
+        </script>
+        <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=" +="" pixel="" +="" "&ev="PageView&noscript=1&quot;"></noscript>
+        <!-- End Facebook Pixel Code -->
+
+
+  <body>
+    <header>
+      <!-- place navbar here -->
+    </header>
+    <main>
+      <section id="firstScreen" class="visible">
+        <div class="container">
+          <div class="row align-items-center justify-content-center">
+            <div class="col-12 d-flex justify-content-center">
+              <div class="logo">
+                <img src="lander/vas-ton-opros/images/logo.png" alt="logo" class="img-fluid">
+              </div>
+            </div>
+            <div class="col-12 d-flex justify-content-center">
+              <div class="title">
+                <h1>Откройте дверь к финансовой свободе с TON от Павла Дурова:<br> Узнайте как получать от $4000 в неделю!</h1>
+                <p>За каждый ответ вы получаете<br> <span style="color: #1f6fca;">+20$ к депозиту!</span></p>
+              </div>
+          </div>
+          <div class="col-12 d-flex justify-content-center">
+            <a href="#" onclick="startQuiz(); return false;document.location.hash='';return false;document.location.hash='';return false;"><div class="btn btn-primary">Пройти опрос</div></a>
+        </div>
+        
+        <div class="col-12 d-flex justify-content-center">
+            <div class="image">
+              <img src="lander/vas-ton-opros/images/1.webp" alt="" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div></section>
+
+      <section id="quiz" class="hidden">
+        
+        <div class="container d-flex flex-column justify-content-around">
+          <div class="underlay">
+          <div class="row">
+            <div class="support d-flex align-items-center justify-content-center">
+                <div class="col-auto">
+                    <img src="lander/vas-ton-opros/images/support.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col">
+                    <div class="support-text">
+                        <h2>Денис</h2>
+                        <p>Финансовый специалист TON</p>
+                    </div>
+                </div>
+          </div>
+        </div>
+
+
+          <div class="progress-block">
+                     
+            <div class="row">
+                <div class="col-6 text-start">
+                    <p>
+                    Готово: <span id="progress-counter">0</span>%
+                    </p>
+                </div>
+                <div class="col-6 text-end">
+                    <p>Зачислено: <span style="color: #1fca88; font-weight: 600;"><span id="payout">0</span></span></p>
+                </div>
+            </div>
+
+            <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 0%"></div>
+            </div>
+
+          </div>
+
+        <div class="question">
+          <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 id="question-title"></h1>
+                </div>
+                <div class="col-12">
+                    <div id="answers">
+
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+        <div class="offer">
+            <div class="container">
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-9">
+                        <h1>Специальное предложение:</h1>
+                        <p>За каждый ответ Вы получаете <br><strong>+20$ на свой инвестиционный счет!</strong></p>
+                    </div>
+                    <div class="col-3 d-flex justify-content-end">
+                        <img src="lander/vas-ton-opros/images/2.webp" class="img-fluid rounded-top" alt="">        
+                    </div>
+                </div>
+              </div>
+        </div>
+        </div>
+      </section>
+
+      <section id="ending" class="hidden">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1>Отличный результат!</h1>
+                </div>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="col-8">
+                            <button type="button" class="btn btn-outline-success my-4">Зачислено: +120$</button>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <p>Спасибо, что заполнили анкету, в течение рабочего времени с Вами свяжется наш представитель!
+                            <br>
+                            <br>
+                            Ваши ответы помогут нам подобрать для Вас лучший инвестиционный план!
+                            <br>
+                            <br>
+                            Заполните форму и получите специальное антикризисное предложение.
+                        </p>
+                    </div>
+                    <div class="col-12">
+                      <form autocomplete="off" onsubmit="return postToGoogle();" class="form _main-form registration form-container contact__form contact-form" id="leadform1" method="post">
+
+                        <div class="form_wraooer_input contact-form__inner">
+
+                            <div class="form-group input-group--name">
+
+                                <input class="form_control form-input" id="Name" name="name" required="" placeholder="Имя" type="text">
+                                <i class="fa__err"></i>
+                                <span class="fa__errInfo">- Введите в указанном формате <br> - Имя и Фамилия не должны
+                                    совпадать</span>
+                                <i class="fa__checked"></i>
+
+                            </div>
+                            <div class="form-group input-group--name">
+
+                                <input class="form_control  form-input" id="LastName" required="" name="last_name" placeholder="Фамилия" type="text">
+                                <i class="fa__err"></i>
+                                <span class="fa__errInfo">- Введите в указанном формате <br> - Имя и Фамилия не должны
+                                    совпадать</span>
+                                <i class="fa__checked"></i>
+
+                            </div>
+
+                            <div class="form-group input-group--email">
+
+                                <input class="form_control form-input" id="Email" name="email" placeholder="E-mail" type="email" required="">
+                                <i class="fa__err"></i>
+                                <span class="fa__errInfo">- Введите в указанном формате <br> - <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="fe9b869f938e929bbe99939f9792d09d9193">[email�&nbsp;protected]</a></span>
+                                <i class="fa__checked"></i>
+
+                            </div>
+                            <div class="form-group" style="position:relative">
+                              
+<span style="display:flex; align-items:center; justify-content:center; border:1px solid #000;
+                                                    width:70px; height:41px; position:absolute; top:0; left:0 ">
+  <img src="lander/vas-ton-opros/usa-flag.svg" width="24px">+1</span>
+                                                    
+                                <input style="padding-left:73px" class="form_control form-input _phone" required="" minlength="10" placeholder="Номер телефона" id="Phone" name="phone" type="tel">
+                                <span class="phone-eror-mess"></span>
+                            </div>
+                        </div>
+
+                        <span class="form-error-content">не верный номер</span>
+             
+                        <div class="contact-form__checkboxes">
+                          <label class="container">
+                              Я согласен с <br>
+                              <a href="#">Политикой Конфиденциальности</a>
+                              <input class="contact-form__checkboxes-checkbox" type="checkbox" checked="checked" required="">
+                              <span class="checkmark"></span>
+                          </label>
+                          <label class="container">
+                              Мне больше 18 лет
+                              <input name="offername" id="offername" value="va_k" type="hidden">
+                                                <input name="ofrname" id="ofrname" value="ton" type="hidden">
+                              <input class="contact-form__checkboxes-checkbox" type="checkbox" checked="checked" required="">
+                              <span class="checkmark"></span>
+                          </label>
+                      </div>
+                        <div class="form-group">
+
+                            <button name="submitBtn" onclick="sendPostback()" class="button px-5 py-3 d-flex w-100 buttonSend" type="submit">
+                                <span>
+                                  Зарегистрироваться
+                                </span>
+                            </button>
+
+                            <input name="code" type="hidden" value="">
+                            <input type="hidden" name="subid" class="js-inputSubid">
+                            <input type="hidden" name="answer">
+                    
+                 
+                    </div></form>
+            </div>
+        </div>
+      </div></section>
+
+    </main>
+    <footer>
+      <!-- place footer here -->
+    </footer>
+
+    
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="lander/vas-ton-opros/js/popper.min.js"></script>
+    <script src="lander/vas-ton-opros/js/bootstrap.min.js"></script>
+    <script src="lander/vas-ton-opros/js/quiz.js"></script>
+    
+    <script type="module" src="lander/vas-ton-opros/js/libs.js"></script>
+    <script type="module" src="lander/vas-ton-opros/js/main-form.js"></script>
+  
+
+</body></html>
